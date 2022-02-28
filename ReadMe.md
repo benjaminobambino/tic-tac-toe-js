@@ -15,7 +15,7 @@
   * DOM manipulation
 ***
 ### ***Getting Started***
-#### The project was deployed through Surge and can be viewed [here](https://blp-tic-tac-toe.surge.sh/)
+#### The project was deployed through Surge and can be viewed [here](https://blp-tic-tac-toe.surge.sh/).
 ### ***Screenshots***
 #### Tic-Tac-Toe in the Browser
 ![Tic-Tac-Toe in the Browser](./screenshots/tic-tac-toe.png)
