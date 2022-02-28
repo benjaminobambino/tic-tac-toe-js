@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background-image: url(https://i.imgur.com/WRppv4i.jpg);
+  background-size: cover;
+  text-align: center;
+  color: #e0dbd1;
+  font-family: 'Gochi Hand', cursive;
+}
+
+header {
+  font-size: 40px;
+}
+
+/* nav {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0 30%;
+} */
+
+.game{
+  display: grid;
+  font-size: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 125px);
+  grid-template-rows: repeat(3, 125px);
+  align-content: space-between;
+  justify-content: center;
+}
+
+#sq0 {
+  border-right: 5px solid #e0dbd1;
+  border-bottom: 5px solid #e0dbd1;
+}
+
+#sq1 {
+  border-right: 5px solid #e0dbd1;
+  border-bottom: 5px solid #e0dbd1;
+  border-left: 5px solid #e0dbd1;
+}
+
+#sq2 {
+  border-bottom: 5px solid #e0dbd1;
+  border-left: 5px solid #e0dbd1;
+}
+
+#sq3 {
+  border-top: 5px solid #e0dbd1;
+  border-right: 5px solid #e0dbd1;
+  border-bottom: 5px solid #e0dbd1;
+}
+
+#sq4 {
+  border-top: 5px solid #e0dbd1;
+  border-right: 5px solid #e0dbd1;
+  border-bottom: 5px solid #e0dbd1;
+  border-left: 5px solid #e0dbd1;
+}
+
+#sq5 {
+  border-top: 5px solid #e0dbd1;
+  border-bottom: 5px solid #e0dbd1;
+  border-left: 5px solid #e0dbd1;
+}
+
+#sq6 {
+  border-top: 5px solid #e0dbd1;
+  border-right: 5px solid #e0dbd1;
+}
+
+#sq7 {
+  border-top: 5px solid #e0dbd1;
+  border-right: 5px solid #e0dbd1;
+  border-left: 5px solid #e0dbd1;
+}
+
+#sq8 {
+  border-top: 5px solid #e0dbd1;
+  border-left: 5px solid #e0dbd1;
+}
+
+.square {
+  font-size: 75px;
+  padding: 10px;
+}
+
+.button {
+  /* background-image: url(https://i.imgur.com/ePLrglc.png) no-repeat;
+  background-size: cover;
+  background-position: center; */
+  background: #e0dbd1;
+  color: #1a1a1a;
+  margin: 30px 45%;
+  padding: 5px;
+  border: 2px solid #e0dbd1;
+  border-radius: 15%;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 20px;
+}
+
+.scoreboard {
+  margin: 0 30% 5% 30%;
+  border: 5px solid #e0dbd1;
+}
+
+.score {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.score-item {
+  border: 2px solid #e0dbd1;
+  padding: 10px;
+  margin: 0;
+}

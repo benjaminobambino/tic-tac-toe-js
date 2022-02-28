@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Build your game board, instructions, and score displays here! -->
+    <header>
+      <h1>Tic-Tac-Toe</h1>
+      <!-- <nav class="options">
+        <h6 class="player-comp">Player vs Computer</h6>
+        <h6 class="comp-player">Computer vs Player</h6>
+        <h6 class="two-player">Player vs Player</h6>
+      </nav> -->
+    </header>
+    <div class="game">
+      <h2 class="result">X's turn ...</h2>
+      <section class="board">
+        <div class="square" id="sq0" data-cell></div>
+        <div class="square" id="sq1" data-cell></div>
+        <div class="square" id="sq2" data-cell></div>
+        <div class="square" id="sq3" data-cell></div>
+        <div class="square" id="sq4" data-cell></div>
+        <div class="square" id="sq5" data-cell></div>
+        <div class="square" id="sq6" data-cell></div>
+        <div class="square" id="sq7" data-cell></div>
+        <div class="square" id="sq8" data-cell></div>
+      </section>
+      <button class="button">Reset Board</button>
+      <section class="scoreboard">
+        <h2 class="score-item">Scoreboard</h2>
+        <span class="score">
+          <h3 class="score-item">X</h3>
+          <h3 class="score-item">O</h3>
+          <h3 class="score-item">Tie</h3>
+          <p class="score-item" id="x-score">0</p>
+          <p class="score-item" id="o-score">0</p>
+          <p class="score-item" id="tie-score">0</p>
+        </span>
+      </section>
+    </div>
+    <!-- Build your game board, instructions, and score displays here! -->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
